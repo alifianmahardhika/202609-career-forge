@@ -8,65 +8,11 @@ export function Part1Slides() {
       <Slide className="section-slide">
         <div className="num">01</div>
         <h2>Persimpangan Setelah PhD</h2>
-        <p className="lead" style={{ marginLeft: 0, marginBottom: "1.5em" }}>
-          Tahun terakhir studi bukan cuma soal menulis disertasi.
-        </p>
-        <SlideFooter num="part 1" accent="persimpangan" />
-      </Slide>
-
-      <Slide style={{ fontSize: FONT.p1_question }}>
-        <Kicker>Pertanyaan yang menghantui</Kicker>
-        <h2>"Habis ini apa?"</h2>
-        <Quote style={{ fontSize: "1.3em", marginTop: "1em" }}>
-          Sekitar satu tahun sebelum sidang, pertanyaan itu muncul terus —
+        <Quote style={{ marginTop: "0.3em", marginBottom: "1.2em" }}>
+          "Habis ini apa?" — pertanyaan yang muncul terus di tahun terakhir,
           bukan cuma dari orang tua, tapi dari diri sendiri.
         </Quote>
-        <p style={{ marginTop: "1em" }}>
-          Tidak ada jawaban tunggal yang benar. Yang ada hanya jalur-jalur
-          dengan konsekuensi berbeda, dan waktu yang makin sempit untuk
-          memilih.
-        </p>
-        <SlideFooter num="03" accent="pertanyaan" />
-      </Slide>
-
-      <Slide style={{ fontSize: FONT.p1_map }}>
-        <Kicker>Peta pilihan</Kicker>
-        <h2>Jalur yang terbuka setelah lulus</h2>
-        <div className="grid cols-2" style={{ marginTop: "1.1em" }}>
-          <Card>
-            <h3>Jalur akademia</h3>
-            <ul>
-              <li>Postdoc di Jepang atau negara lain</li>
-              <li>Jalur dosen / peneliti tetap</li>
-            </ul>
-          </Card>
-          <Card>
-            <h3>Jalur industri</h3>
-            <ul>
-              <li>Industri riset (R&amp;D)</li>
-              <li>Industri non-riset — engineering, data, produk</li>
-            </ul>
-          </Card>
-          <Card>
-            <h3>Jalur mandiri</h3>
-            <ul>
-              <li>Wirausaha atau proyek sendiri</li>
-            </ul>
-          </Card>
-          <Card>
-            <h3>Pulang ke Indonesia</h3>
-            <ul>
-              <li>Kembali membangun karier di tanah air</li>
-            </ul>
-          </Card>
-        </div>
-        <p style={{ marginTop: "0.8em" }}>
-          <small>
-            Tidak ada yang lebih mulia dari yang lain — semua jalur ini valid,
-            tergantung apa yang dicari.
-          </small>
-        </p>
-        <SlideFooter num="04" accent="peta pilihan" />
+        <SlideFooter num="part 1" accent="persimpangan" />
       </Slide>
 
       <Slide style={{ fontSize: FONT.p1_decision }}>
@@ -103,7 +49,7 @@ export function Part1Slides() {
             </p>
           </Card>
         </div>
-        <SlideFooter num="05" accent="keputusan" />
+        <SlideFooter num="02" accent="keputusan" />
       </Slide>
 
       <Slide style={{ fontSize: FONT.p1_overlap }}>
@@ -126,7 +72,7 @@ export function Part1Slides() {
               periode ini.
             </p>
           </div>
-          <Card style={{ borderColor: "var(--primary)", boxShadow: "0 0 0 2px rgba(255,201,60,0.18)" }}>
+          <Card style={{ borderColor: "var(--primary)", boxShadow: "0 0 0 2px rgba(217,164,65,0.18)" }}>
             <h3>Kenapa ini penting diceritakan</h3>
             <p>
               Ini bukan cerita ideal "lulus dulu baru kerja". Kenyataannya
@@ -135,7 +81,7 @@ export function Part1Slides() {
             </p>
           </Card>
         </div>
-        <SlideFooter num="06" accent="overlap" />
+        <SlideFooter num="03" accent="overlap" />
       </Slide>
     </>
   );

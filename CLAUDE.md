@@ -29,7 +29,7 @@ src/
     ├── slideConfig.js           # per-slide font-size map (FONT.<key>)
     ├── components/index.jsx     # shared primitives: Card, Pill, Stat, Kicker, SlideFooter, Quote
     └── slides/
-        ├── Intro.jsx            # slides 1–3
+        ├── Intro.jsx            # slides 1–2
         ├── Part1Simpang.jsx     # persimpangan setelah PhD
         ├── Part2Industri.jsx    # peluang PhD di industri
         ├── Part3Skill.jsx       # strategi pengembangan skill

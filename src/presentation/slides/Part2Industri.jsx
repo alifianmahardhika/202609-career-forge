@@ -40,31 +40,7 @@ export function Part2Slides() {
             </p>
           </Card>
         </div>
-        <SlideFooter num="07" accent="mitos" />
-      </Slide>
-
-      <Slide style={{ fontSize: FONT.p2_value }}>
-        <Kicker>Yang sebenarnya dibeli perusahaan</Kicker>
-        <h2>Empat kebiasaan dari bertahun-tahun riset</h2>
-        <div className="grid cols-2" style={{ marginTop: "1.1em" }}>
-          <Card>
-            <h3>Membingkai masalah kabur</h3>
-            <p>Terbiasa mulai dari pertanyaan tanpa jawaban jelas.</p>
-          </Card>
-          <Card>
-            <h3>Tahan dengan ketidakpastian</h3>
-            <p>Eksperimen gagal berbulan-bulan bukan hal asing.</p>
-          </Card>
-          <Card>
-            <h3>Membaca &amp; menyerap cepat</h3>
-            <p>Terbiasa mencerna literatur baru dalam waktu singkat.</p>
-          </Card>
-          <Card>
-            <h3>Argumen berbasis bukti</h3>
-            <p>Terlatih mempertahankan klaim dengan data, bukan opini.</p>
-          </Card>
-        </div>
-        <SlideFooter num="08" accent="nilai lebih" />
+        <SlideFooter num="04" accent="mitos" />
       </Slide>
 
       <Slide style={{ fontSize: FONT.p2_case }}>
@@ -95,7 +71,7 @@ export function Part2Slides() {
             </p>
           </Card>
         </div>
-        <SlideFooter num="09" accent="studi kasus" />
+        <SlideFooter num="05" accent="studi kasus" />
       </Slide>
 
       <Slide style={{ fontSize: FONT.p2_surprise }}>
@@ -111,7 +87,7 @@ export function Part2Slides() {
               <li>Ritme lapor progress ke atasan secara rutin</li>
             </ul>
           </Card>
-          <Card style={{ borderColor: "var(--primary)", boxShadow: "0 0 0 2px rgba(255,201,60,0.18)" }}>
+          <Card style={{ borderColor: "var(--primary)", boxShadow: "0 0 0 2px rgba(217,164,65,0.18)" }}>
             <h3>Untungnya, saya sudah terbiasa</h3>
             <p>
               Terbiasa seminar mingguan dan lapor progress ke supervisor
@@ -121,7 +97,7 @@ export function Part2Slides() {
             </p>
           </Card>
         </div>
-        <SlideFooter num="10" accent="ritme kerja" />
+        <SlideFooter num="06" accent="ritme kerja" />
       </Slide>
     </>
   );

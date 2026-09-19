@@ -1,5 +1,5 @@
 import { Slide } from "@revealjs/react";
-import { Card, Kicker, Pill, SlideFooter } from "../components/index.jsx";
+import { SlideFooter } from "../components/index.jsx";
 import { FONT } from "../slideConfig.js";
 
 export function IntroSlides() {
@@ -7,7 +7,7 @@ export function IntroSlides() {
     <>
       <Slide
         className="title-slide"
-        notes="Selamat siang semua. Terima kasih PPI sudah mengundang. Hari ini saya mau cerita, bukan kuliah — soal apa yang terjadi setelah tulisan disertasi selesai dicetak."
+        notes="Selamat siang semua. Terima kasih PPI sudah mengundang. Hari ini saya mau cerita, bukan kuliah — soal apa yang terjadi setelah tulisan disertasi selesai dicetak. Sesi ini singkat, sisa waktu untuk tanya jawab."
       >
         <div className="super">ARKENA CENDRAWASIH · CAREER FORGE</div>
         <h1>
@@ -24,7 +24,7 @@ export function IntroSlides() {
       </Slide>
 
       <Slide style={{ fontSize: FONT.intro_about }}>
-        <Kicker>Perkenalan</Kicker>
+        <div className="kicker">Perkenalan</div>
         <h2>Rute yang saya tempuh</h2>
         <div className="grid cols-4" style={{ marginTop: "1em" }}>
           <div className="item">
@@ -48,7 +48,7 @@ export function IntroSlides() {
             <span className="place">eftax Co., Ltd., Osaka · penuh waktu sejak Apr 2023</span>
           </div>
         </div>
-        <div className="grid cols-3" style={{ marginTop: "1.3em" }}>
+        <div className="grid cols-3" style={{ marginTop: "1.2em" }}>
           <div className="stat">
             <span className="num">3 tahun</span>
             <span className="lbl">masa studi PhD</span>
@@ -62,35 +62,13 @@ export function IntroSlides() {
             <span className="lbl">di industri sampai hari ini</span>
           </div>
         </div>
+        <p style={{ marginTop: "0.8em" }}>
+          <small>
+            Sesi ini cerita, bukan kuliah — silakan potong kapan saja, sisa
+            waktu sengaja saya sisakan banyak untuk tanya jawab.
+          </small>
+        </p>
         <SlideFooter num="01" accent="perkenalan" />
-      </Slide>
-
-      <Slide style={{ fontSize: FONT.intro_agenda }}>
-        <Kicker>Sebelum mulai</Kicker>
-        <h2>Ini sesi cerita, bukan kuliah</h2>
-        <div className="grid cols-2" style={{ marginTop: "1.2em" }}>
-          <Card>
-            <h3>Yang akan saya bagikan</h3>
-            <ul>
-              <li>Persimpangan yang saya hadapi di tahun terakhir PhD</li>
-              <li>Kenapa lulusan PhD punya tempat di industri, bukan cuma akademia</li>
-              <li>Bagaimana saya (masih) membangun skill setelah lulus</li>
-            </ul>
-          </Card>
-          <Card>
-            <h3>Silakan potong kapan saja</h3>
-            <p>
-              Tidak ada slide teknis di sini. Kalau ada yang mengganjal atau
-              mau tahu lebih dalam soal satu poin, angkat tangan saja — kita
-              obrolkan di tempat. Sisa waktu sengaja saya sisakan banyak
-              untuk diskusi.
-            </p>
-            <p style={{ marginTop: "0.6em" }}>
-              <Pill>~20 menit cerita</Pill> <Pill variant="pink">Q&amp;A terbuka</Pill>
-            </p>
-          </Card>
-        </div>
-        <SlideFooter num="02" accent="agenda" />
       </Slide>
     </>
   );
