@@ -9,7 +9,7 @@ export function Part1Slides() {
         <div className="num">01</div>
         <h2>Persimpangan Setelah PhD</h2>
         <Quote style={{ marginTop: "0.3em", marginBottom: "1.2em" }}>
-          "Habis ini apa?" — pertanyaan yang muncul terus di tahun terakhir,
+          "Habis ini apa?" Pertanyaan yang muncul terus di tahun terakhir,
           bukan cuma dari orang tua, tapi dari diri sendiri.
         </Quote>
         <SlideFooter num="part 1" accent="persimpangan" />
@@ -23,13 +23,13 @@ export function Part1Slides() {
             <p>
               Sebenarnya saya sempat mencoba dua-duanya. Setelah lulus,
               profesor saya menawari posisi postdoc, dan saya jalani
-              sekitar enam bulan sambil tetap part time di eftax — jadi dua
+              sekitar enam bulan sambil tetap part time di eftax, jadi dua
               dunia itu berjalan paralel dulu, bukan langsung diputuskan.
             </p>
             <p>
               Tapi begitu ada ruang untuk memilih, jawabannya jadi jelas:
               saya memang suka ngoding. Dari dulu suka utak-atik komputer.
-              Jadi saya pilih fokus penuh ke eftax — bukan karena postdoc
+              Jadi saya pilih fokus penuh ke eftax, bukan karena postdoc
               buruk, tapi karena passion saya memang di situ.
             </p>
           </div>
@@ -60,12 +60,12 @@ export function Part1Slides() {
             <p>
               Saya punya privilege: lab saya tidak mewajibkan datang tiap
               hari, dan seminar cuma seminggu sekali. Jadi saya banyak kerja
-              dari rumah — ke kampus hanya untuk kuliah dan seminar. Sisa
+              dari rumah, ke kampus hanya untuk kuliah dan seminar. Sisa
               waktunya saya pakai untuk ambil course dan part time.
             </p>
             <p>
               Yang dikorbankan: saya tidak terlalu "wah" secara akademik.
-              Publikasi seadanya, tidak sampai Q1 — yang penting lulus,
+              Publikasi seadanya, tidak sampai Q1, yang penting lulus,
               karena fokus saya memang di IT. Di waktu yang sama, anak
               pertama saya lahir, istri saya juga sedang menempuh S3, dan
               pandemi COVID sedang berlangsung. Itu titik paling berat di
@@ -76,7 +76,7 @@ export function Part1Slides() {
             <h3>Kenapa ini penting diceritakan</h3>
             <p>
               Ini bukan cerita ideal "lulus dulu baru kerja". Kenyataannya
-              banyak jalan tidak rapi, banyak hal berjalan bersamaan — dan
+              banyak jalan tidak rapi, banyak hal berjalan bersamaan, dan
               itu tidak apa-apa.
             </p>
           </Card>

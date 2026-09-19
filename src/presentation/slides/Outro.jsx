@@ -11,7 +11,7 @@ export function OutroSlides() {
         <Quote style={{ marginTop: "0.6em", maxWidth: "80%" }}>
           Temukan passion, kuatkan niat, jangan menyerah menjalani prosesnya.
           Rezeki sudah ditentukan, tapi kita tak pernah tahu kapan
-          sampainya — jadi tetaplah berusaha. Karena bersama kesulitan,
+          sampainya, jadi tetaplah berusaha. Karena bersama kesulitan,
           selalu ada kemudahan.
         </Quote>
         <p style={{ marginTop: "0.9em" }}>

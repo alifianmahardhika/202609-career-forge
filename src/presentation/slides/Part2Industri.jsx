@@ -28,7 +28,7 @@ export function Part2Slides() {
           <Card>
             <h3>"PhD cuma buat riset"</h3>
             <p>
-              Cara berpikir riset — bertanya, menguji, memperbaiki — dipakai
+              Cara berpikir riset: bertanya, menguji, memperbaiki, dipakai
               di hampir semua peran, bukan cuma lab.
             </p>
           </Card>
@@ -93,7 +93,7 @@ export function Part2Slides() {
               Terbiasa seminar mingguan dan lapor progress ke supervisor
               selama S3 itu ternyata sudah melatih ritme kerja. Begitu masuk
               industri, ritme stand-up dan laporan ke atasan terasa
-              familiar — bukan hal baru yang harus dipelajari dari nol.
+              familiar, bukan hal baru yang harus dipelajari dari nol.
             </p>
           </Card>
         </div>

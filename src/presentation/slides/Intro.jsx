@@ -7,7 +7,7 @@ export function IntroSlides() {
     <>
       <Slide
         className="title-slide"
-        notes="Selamat siang semua. Terima kasih PPI sudah mengundang. Hari ini saya mau cerita, bukan kuliah — soal apa yang terjadi setelah tulisan disertasi selesai dicetak. Sesi ini singkat, sisa waktu untuk tanya jawab."
+        notes="Selamat siang semua. Terima kasih PPI sudah mengundang. Hari ini saya mau cerita, bukan kuliah, soal apa yang terjadi setelah tulisan disertasi selesai dicetak. Sesi ini singkat, sisa waktu untuk tanya jawab."
       >
         <div className="super">ARKENA CENDRAWASIH · CAREER FORGE</div>
         <h1>
@@ -28,22 +28,22 @@ export function IntroSlides() {
         <h2>Rute yang saya tempuh</h2>
         <div className="grid cols-4" style={{ marginTop: "1em" }}>
           <div className="item">
-            <div className="yr">2012 — 2016</div>
+            <div className="yr">2012–2016</div>
             <span className="role">S1 Fisika</span>
             <span className="place">ITB · Earth &amp; Complex System</span>
           </div>
           <div className="item">
-            <div className="yr">2017 — 2019</div>
+            <div className="yr">2017–2019</div>
             <span className="role">S2 Computational Science</span>
             <span className="place">Kanazawa University</span>
           </div>
           <div className="item">
-            <div className="yr">2019 — 2022</div>
+            <div className="yr">2019–2022</div>
             <span className="role">PhD Applied Mathematics</span>
             <span className="place">Kanazawa University · beasiswa MEXT</span>
           </div>
           <div className="item">
-            <div className="yr">2021 — sekarang</div>
+            <div className="yr">2021–sekarang</div>
             <span className="role">Software → Data Engineer</span>
             <span className="place">eftax Co., Ltd., Osaka · penuh waktu sejak Apr 2023</span>
           </div>
@@ -64,7 +64,7 @@ export function IntroSlides() {
         </div>
         <p style={{ marginTop: "0.8em" }}>
           <small>
-            Sesi ini cerita, bukan kuliah — silakan potong kapan saja, sisa
+            Sesi ini cerita, bukan kuliah. Silakan potong kapan saja, sisa
             waktu sengaja saya sisakan banyak untuk tanya jawab.
           </small>
         </p>

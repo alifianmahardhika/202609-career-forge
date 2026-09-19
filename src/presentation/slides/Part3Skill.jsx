@@ -9,7 +9,7 @@ export function Part3Slides() {
         <div className="num">03</div>
         <h2>Strategi Pengembangan Skill</h2>
         <p className="lead" style={{ marginLeft: 0, marginBottom: "1.5em" }}>
-          Lulus PhD bukan garis akhir belajar — cuma ganti kurikulum.
+          Lulus PhD bukan garis akhir belajar, cuma ganti kurikulum.
         </p>
         <SlideFooter num="part 3" accent="pengembangan skill" />
       </Slide>
@@ -43,7 +43,7 @@ export function Part3Slides() {
         <p style={{ marginTop: "0.9em" }}>
           Dua tahun jadi Education Mentor di MySkill mengajarkan saya bahwa
           cara terbaik memastikan benar-benar paham sesuatu adalah dengan
-          menjelaskannya ke orang lain — jadi menulis dan mengajar juga
+          menjelaskannya ke orang lain, jadi menulis dan mengajar juga
           bagian dari cara saya belajar.
         </p>
         <p style={{ marginTop: "0.6em" }}>
